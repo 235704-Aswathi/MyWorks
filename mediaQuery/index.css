@@ -1,0 +1,69 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image{
+    text-align: center;
+}
+button{
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: antiquewhite;
+    }
+    .p1{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+        text-align: center;
+    }
+}
+@media  screen and (min-width:400px) and (max-width:600px) {
+    body{
+        background-color: antiquewhite;
+        background-color: blueviolet;
+    }
+    .p1{
+      font-family: 'Times New Roman', Times, serif;
+
+    }
+    h1{
+        text-align: center;
+    }
+}
+@media  screen and (min-width:600px) and (max-width:1000px) {
+    body{
+        background-color: antiquewhite;
+        background-color: rgb(73, 226, 43);
+    }
+    .p1{
+      font-family: 'Times New Roman', Times, serif;
+
+    }
+    h1{
+        text-align: center;
+    }
+}
+@media  screen and (min-width:100px) and (max-width:400px) {
+    body{
+        background-color: antiquewhite;
+        background-color: rgb(226, 43, 98);
+    }
+    .p1{
+      font-family: 'Times New Roman', Times, serif;
+
+    }
+    h1{
+        text-align: center;
+    }
+}
