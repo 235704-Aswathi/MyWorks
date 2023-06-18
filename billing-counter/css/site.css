@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+    .container {
+    margin: 0 auto;
+    padding: 20px;
+    }
+    form{
+        display: inline-flex;
+    }
+    .form-control {
+    display: inline-flex;
+    flex-direction: column;
+    padding:15px;
+    margin-bottom: 10px;
+    }
+    .form-control label {
+    width: 100px;
+    margin-right: 10px;
+    }
+    .form-control input {
+    padding: 5px;
+    width: 10rem;
+    border-radius:5px;
+    }
+    .form-control-btn {
+        display: inline-flex;
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+        margin-bottom: 28px;
+    }
+    .form-control-btn button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .form-control-btn button:hover {
+    background-color: #0069D9;
+    }
+    .list table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    .list table caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    .list table th,
+    .list table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    }
+    .list table th {
+    background-color: #F5F5F5;
+    font-weight: bold;
+    }
+    .list table tfoot td {
+    font-weight: bold;
+    }
+    .list table tfoot td:last-child {
+    font-size: 1.2rem;
+    /* color: #007BFF; */
+    }
+    .list table tfoot td:last-child::before {
+    content: "₹ ";
+    }
+    .list table button {
+    background-color: #DC3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    }
+    .list table button:hover {
+    background-color: #C82333;
+    color: #fff;
+    }

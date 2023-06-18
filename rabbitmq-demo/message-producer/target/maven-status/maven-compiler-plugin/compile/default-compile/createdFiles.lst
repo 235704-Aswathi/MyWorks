@@ -1,0 +1,5 @@
+in\stackroute\Main.class
+in\stackroute\dto\ResponseDto.class
+in\stackroute\controllers\MessageController.class
+in\stackroute\config\RabbitMQConfig.class
+in\stackroute\messaging\Receiver.class
